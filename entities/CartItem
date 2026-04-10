@@ -1,0 +1,36 @@
+{
+  "name": "CartItem",
+  "type": "object",
+  "properties": {
+    "book_id": {
+      "type": "string",
+      "title": "ID do Livro"
+    },
+    "book_title": {
+      "type": "string",
+      "title": "T\u00edtulo"
+    },
+    "book_author": {
+      "type": "string",
+      "title": "Autor"
+    },
+    "book_cover": {
+      "type": "string",
+      "title": "Capa"
+    },
+    "book_price": {
+      "type": "number",
+      "title": "Pre\u00e7o"
+    },
+    "quantity": {
+      "type": "number",
+      "title": "Quantidade"
+    }
+  },
+  "required": [
+    "book_id",
+    "book_title",
+    "book_price",
+    "quantity"
+  ]
+}
